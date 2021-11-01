@@ -4,9 +4,9 @@ import org.junit.Test;
 
 public class UserRegistrationTest {
     @Test
-    public void givenEmail_WhenValid_ShouldReturnTrue() {
+    public void givenPhoneNumber_WhenCorrect_ShouldReturnTrue() {
         UserRegistration userRegistration = new UserRegistration();
-        boolean userTest = userRegistration.email("lenkasmruti.xyz@slen.com.in");
+        boolean userTest = userRegistration.phoneNumber("91 7504614661");
         Assert.assertTrue(userTest);
     }
 }
