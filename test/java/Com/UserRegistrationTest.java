@@ -6,7 +6,7 @@ public class UserRegistrationTest {
     @Test
     public void givenPassword_WhenOneUpperCase_ShouldReturnTrue() {
         UserRegistration userRegistration = new UserRegistration();
-        boolean userTest = userRegistration.passwordTest("Smrutiwe");
+        boolean userTest = userRegistration.passwordTest("Smutty77");
         Assert.assertTrue(userTest);
     }
 }
