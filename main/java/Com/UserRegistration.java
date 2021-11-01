@@ -7,7 +7,7 @@ public class UserRegistration {
 
     public boolean emailTest(String gmail, boolean value) {
         boolean matchesCode = Pattern.matches(EMAIL_PATTERN, gmail);
-        if (matchesCode == value)
+        if(matchesCode == value)
             return value;
         else
             return false;
